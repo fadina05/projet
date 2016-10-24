@@ -1,6 +1,7 @@
 language: ruby
 rvm:
 -2.1.2
+sudo: required
 deploy:
   provider: heroku
   api_key:
