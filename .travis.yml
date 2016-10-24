@@ -1,4 +1,8 @@
 language: ruby
 rvm:
 - 2.3.1
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: 4ff581c925de6b92352df4ff1107d268341e3f5e9ebac510184e48f145baf9ef5914a3501fabd8a9ae25c22aaf4ac44a61eb3189e6e4125b28e0581b3ed73719
+  app: projet01
