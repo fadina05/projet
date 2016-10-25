@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
@@ -45,4 +46,3 @@ gem 'pg', '~> 0.18.4', group: :production
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
